@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><link rel="stylesheet" href="normalize.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Brenny Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+            </div>
+        </header>
+        
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Ethan Brenny</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Software Engineer</p>
+            <img src="img/ethan_c.jpg" alt="Me and Crystal" class="intro__img">
+        </section>
+        
+        
+        <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Platforming</h3>
+                    <p>I've Worked on the Health Care Platform at Optum which seeked to build core capabilities for medical data enablement. Among its core competencies I had a part in developing a generalized software solution to standardize medical data, and transform depending on the needs of data consumers.</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>Software</h3>
+                    <p>My language of choice is Golang. Among the languages that manage memory for you Golang truly stands out with achieving both competitive speeds while managing to keep code more readable. </p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>Devevelopement Operations</h3>
+                    <p>As a general rule of thumb on our team each member was tasked with learning how to utilize both jenkins and drone.io to automate our practices, and try to win the everlasting fight against tech debt.</p>
+                </div> <!-- / service -->
+            </div> <!-- / services -->
+            
+            <a href="#work" class="btn"></a>
+        </section>
+        
+        
+        <!-- About me -->
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">Ethan Brenny</h2>
+           <p class="section__subtitle section__subtitle--about">Software Engineer</p>
+           
+           <div class="about-me__body">
+               <p>I graduated with a computer science degree from the University of Minnesota in 2019. From there I started my career at Optum where I worked for Enterprise Information Security creating data pipelines for security logging while utilizing technologies like kafka, kubernetes, and docker. This experience made me realize that my passion lay in platforming and enablement side of developement. I found that my most fulfilling experience as a programmer was creating fundamental software that people could rely on, and worked so flawlessly that it creates a level of abstraction that future developers can rely on. I found myself inspired from the tools I had used such as Jenkins, Graphql, Docker, and Kubernetes to create more layers of foundation for future programmers to utilize. </p>
+               <p>From there I moved to the Health Care Platform group in Optum where I had the ability to create software that would be used across the Enterprise. I was able to help develop software solutions to standardize how we viewed and consume data internally. Through my work on these teams I learned the value of microservice oriented architecture and how easy to access standardized data can simplify an entire companies processes.</p>
+           </div>
+           
+           <img src="img/ethan_chill.jpg" alt="Ethan dude" class="about-me__img">
+        </section>
+        
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">Technologies and Skills</h2>
+            <p class="section__subtitle section__subtitle--work"></p>
+            
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                <a class="portfolio__item">
+                    <img src="img/go.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 02 href="portfolio-item.html"-->
+                <a class="portfolio__item">
+                    <img src="img/docker.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 03 -->
+                <a class="portfolio__item">
+                    <img src="img/k8s.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 04 -->
+                <a class="portfolio__item">
+                    <img src="img/Azure.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 05 -->
+                <a class="portfolio__item">
+                    <img src="img/kafkalogo.webp" alt="" class="portfolio__img">
+                </a>
+            </div>
+        </section>
+        
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- replace with your own email address -->
+            <a class="footer__link">brenn508@umn.edu</a>
+            <!-- <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://codepen.io">
+                        <i class="fab fa-codepen"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="http://dribbble.com">
+                        <i class="fab fa-dribbble"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://twitter.com">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul> -->
+        </footer>
+        
+        
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>
